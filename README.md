@@ -1,7 +1,7 @@
 # What is UNO CNC Enclosure?
 An easy to print and assemble enclosure for [Arduino UNO](https://docs.arduino.cc/hardware/uno-rev3/) and CNC Shield V3. The fan at the front keeps the electronics cool and the patch panel at the back ensures easy cable management.
 
-![Actual photo of the enclosure](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/main/docs/enclosure_irl.png)
+![Actual photo of the enclosure](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/refs/heads/main/docs/enclosure_irl.png)
 
 # Disclaimer
 **I don't take any responsibilities for injuries and/or any damage caused by this design. Build at you own risk!**
@@ -25,14 +25,16 @@ Please refer the Thingiverse page to pick the right STL for your needs and for p
 - 1 patch panel (see details below)
 
 **For the patch panel**
-- Prototyping PCB with the measurements shown below: ![Raw patch panel](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/main/docs/raw_patch_panel.png)
+- Prototyping PCB with the measurements shown below: ![Raw patch panel](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/refs/heads/main/docs/raw_patch_panel.png)
 - ? pcs of any wire-to-board connector with 0.1" pitch. My recommendation is **JST**'s [XH series](https://www.jst-mfg.com/product/pdf/eng/eXH.pdf) connectors
 - ? pcs of pin header connectors to wire the patch panel to the CNC shield. **Ninigi**'s [NSR series](https://ninigi.com/gb/en/product/ninigi/pin-headers/nsr-01/112937/) connectors are a good example
 - Some 20-24 AWG wire
 
 # Assembly
-1. Tap M3 threads into the bottom part's four corner holes and the two Arduino mounting points. A regular M3 tap drill may be sufficient for the corner holes, but not for the mounting points. I simply got a M3 screw and cut a vertical notch into it with a hacksaw.
-![Raw patch panel](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/main/docs/assembly_1.png)
+1. Tap M3 threads into the bottom part's four corner holes and the two Arduino mounting points (idicated by yellow arrows). A regular M3 tap drill may be sufficient for the corner holes, but not for the mounting points. I simply got a M3 screw and cut a vertical notch into it with a hacksaw.
+![Raw patch panel](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/refs/heads/main/docs/assembly_1.png)
+2. Mount the Arduino UNO with the **M3x4** screws (mounting point are indicated with yellow arrows). Then, attach the CNC shield.
+![Raw patch panel](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/refs/heads/main/docs/assembly_2.png)
 
 # License
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]

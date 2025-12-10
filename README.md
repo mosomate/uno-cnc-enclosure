@@ -33,8 +33,10 @@ Please refer the Thingiverse page to pick the right STL for your needs and for p
 # Assembly
 1. Tap M3 threads into the bottom part's four corner holes and the two Arduino mounting points (idicated by yellow arrows). A regular M3 tap drill may be sufficient for the corner holes, but not for the mounting points. I simply got a M3 screw and cut a vertical notch into it with a hacksaw.
 ![Raw patch panel](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/refs/heads/main/docs/assembly_1.png)
-2. Mount the Arduino UNO with the **M3x4** screws (mounting point are indicated with yellow arrows). Then, attach the CNC shield.
+2. Mount the Arduino UNO with the **M3x4** screws (mounting points are indicated with yellow arrows) **(A)**. Then, attach the CNC shield **(B)**.
 ![Raw patch panel](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/refs/heads/main/docs/assembly_2.png)
+2. Solder the connectors to the patch panel's PCB. See an example layout below **(A)**. Wire the header pins on the CNC shield to the patch panel. Oh, boy... This won't be easy. After trying many options I came up with a **recommedation**. For each cable: **1.** cut off the end of the contact to make it shorter. **2.** Strip the wire and fold the conductor under the insulation. **3.** Crimp the contact to the wire. **4** Put a piece of heatshrink to the contact for safety. Check the steps below **(B)**.
+![Raw patch panel](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/refs/heads/main/docs/assembly_3.png)
 
 # License
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]

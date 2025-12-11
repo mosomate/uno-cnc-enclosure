@@ -7,7 +7,7 @@ An easy to print and assemble enclosure for [Arduino UNO](https://docs.arduino.c
 **I don't take any responsibilities for injuries and/or any damage caused by this design. Build at you own risk!**
 
 # 3D printing
-You can download all the necassary STL files for 3D printing from the project's Thingiverse page:
+You can download all the necessary STL files for 3D printing from the project's Thingiverse page:
 
 [Enclosure for Arduino UNO + CNC Shield](https://www.thingiverse.com/thing:7212313)
 
@@ -21,15 +21,15 @@ Please refer the Thingiverse page to pick the right STL for your needs and for p
 - 1 CNC Shield and [Pololu steppers](https://www.pololu.com/product/1182) (or stepper boards with the same form factor) for each axis
 - 2 pcs of **M3x4** screws. These are not easy to source, you better shorten longer screws
 - 4 pcs of **M3x25** screws
-- 1 fan. It can be a **25x25x10 mm** fan, or **Ebm-papst** fabulous **25x25x8 mm** fan. If you pick this, a fan grill (STL can be found on the Thingiverse page) is also needed
-- 1 pair of 
-- 1 patch panel (see details below)
+- 1 fan. It can be a **25x25x10 mm** fan, or **Ebm-papst**'s fabulous **25x25x8 mm** fan. If you pick this, a fan grill (STL can be found on the Thingiverse page) is also needed
+- 1 pair of **0.1"** pitch header pins (for connecting the fan to the CNC Shield. See assembly step 4)
+- 1 patch panel (see the next section)
+- Some **20 AWG** wire for the power and **24-26 AWG** wire for the rest of the connections from the CNC Shield to the patch panel
 
 **For the patch panel**
-- Prototyping PCB with the measurements shown below: ![Raw patch panel](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/refs/heads/main/docs/raw_patch_panel.png)
+- Prototyping PCB with **0.1"** pitch and the measurements shown below: ![Raw patch panel](https://raw.githubusercontent.com/mosomate/uno-cnc-enclosure/refs/heads/main/docs/raw_patch_panel.png)
 - ? pcs of any wire-to-board connector with **0.1"** pitch. My recommendation is **JST**'s [XH series](https://www.jst-mfg.com/product/pdf/eng/eXH.pdf) connectors (amount and type of these connectors are dependent on your needs)
-- ? pcs of pin header connectors to wire the patch panel to the CNC shield (amount and type of these connectors are dependent on your needs). **Ninigi**'s [NSR series](https://ninigi.com/gb/en/product/ninigi/pin-headers/nsr-01/112937/) connectors are a good example
-- Some **20 AWG** wire for the power and **24-26 AWG** wire for the rest of the connections
+- ? pcs of pin header connectors to wire the patch panel to the CNC Shield (amount and type of these connectors are dependent on your needs). **Ninigi**'s [NSR series](https://ninigi.com/gb/en/product/ninigi/pin-headers/nsr-01/112937/) connectors are a good example
 
 # Assembly
 1. Tap **M3** threads into the bottom part's four corner holes and the two Arduino mounting points (indicated by yellow arrows). A regular M3 tap drill may be sufficient for the corner holes, but not for the mounting points. I simply cut a vertical notch into a M3 screw with a hacksaw. Apply some pressure while driving in the screw and the sharp edges do the rest.
